@@ -1,0 +1,23 @@
+{
+  "name": "fresh-chili-thai",
+  "version": "1.0.0",
+  "description": "<!-- PROJECT LOGO --> <br /> <div align=\"center\">   <a href=\"https://github.com/zac-march/fresh-chili-thai\">     <img src=\"images/logo.png\" alt=\"Logo\" width=\"80\" height=\"80\">   </a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zac-march/fresh-chili-thai.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zac-march/fresh-chili-thai/issues"
+  },
+  "homepage": "https://github.com/zac-march/fresh-chili-thai#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
