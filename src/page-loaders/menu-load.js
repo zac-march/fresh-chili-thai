@@ -5,7 +5,7 @@ function menuLoad() {
 
   menuPDF.src =
     "https://drive.google.com/file/d/1XhE9ujNiU_zokGgAzZh62ALhs9fot6vY/preview";
-  menuPDF.width = "100%";
+  menuPDF.width = "1000px";
   menuPDF.height = "700px";
   menuPDF.frameborder = "0";
 
