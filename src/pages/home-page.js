@@ -1,6 +1,6 @@
 import Image from "../images/thaifood.jpg";
-import { menuLoad } from "./menu-page";
 import { loadPage } from "../loadpage";
+import { navbar } from "../navbar";
 
 function homeLoad() {
   const hero = document.createElement("div");
@@ -16,7 +16,7 @@ function homeLoad() {
   callToActionBtn.textContent = "View Menu";
 
   callToActionBtn.addEventListener("click", (e) => {
-    loadPage(menuLoad());
+    loadPage(navbar.links[1].element);
   });
 
   hero.classList.add("hero");
