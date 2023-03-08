@@ -1,5 +1,6 @@
 import Image from "../images/thaifood.jpg";
 import { menuLoad } from "./menu-load";
+import { loadPage } from "../page-loader";
 
 function homeLoad() {
   const hero = document.createElement("div");
@@ -14,12 +15,14 @@ function homeLoad() {
     "Where every dish is an explosion of authentic Thai flavors, crafted from the freshest ingredients to tantalize your taste buds.";
   callToActionBtn.textContent = "View Menu";
 
+  callToActionBtn.addEventListener("click", (e) => {
+    loadPage(menuLoad());
+  });
+
   hero.classList.add("hero");
   hero.appendChild(title);
   hero.appendChild(blurb);
   hero.append(callToActionBtn);
-
-  callToActionBtn.addEventListener("click", (e) => {});
 
   return hero;
 }
