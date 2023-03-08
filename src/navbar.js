@@ -1,8 +1,8 @@
-import { homeLoad } from "./page-loaders/home-load";
-import { menuLoad } from "./page-loaders/menu-load";
-import { aboutLoad } from "./page-loaders/about-load";
-import { contactLoad } from "./page-loaders/contact-load";
-import { loadPage } from "./page-loader";
+import { homeLoad } from "./pages/home-page";
+import { menuLoad } from "./pages/menu-page";
+import { aboutLoad } from "./pages/about-page";
+import { contactLoad } from "./pages/contact-page";
+import { loadPage } from "./loadpage";
 
 const navLinkNodes = document.querySelectorAll(".nav-link");
 

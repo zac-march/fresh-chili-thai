@@ -1,6 +1,6 @@
 import Image from "../images/thaifood.jpg";
-import { menuLoad } from "./menu-load";
-import { loadPage } from "../page-loader";
+import { menuLoad } from "./menu-page";
+import { loadPage } from "../loadpage";
 
 function homeLoad() {
   const hero = document.createElement("div");
