@@ -34,6 +34,34 @@ main {
   padding: 30px 25% 30px 25%;
 }
 
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-github {
+  font-size: 1.5rem;
+  transition: transform 0.2s ease-in-out;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.fa-github:hover {
+  transform: rotate(-2deg) scale(1.1);
+}
+
+/* Header */
+
 header {
   background-color: rgb(96, 65, 99);
   padding: 20px 20% 20px 20%;
@@ -42,11 +70,6 @@ header {
   align-items: center;
   gap: 1rem;
   box-shadow: 0 1px 5px -2px rgb(0, 0, 0);
-}
-
-footer {
-  display: flex;
-  justify-content: center;
 }
 
 .navbar {
@@ -75,13 +98,15 @@ footer {
   box-shadow: 0 3px 2px -2px rgb(196, 196, 196);
 }
 
-main {
-  width: 100%;
-  height: 100%;
-}
+/* Main */
 
 .logo > img {
   height: 5rem;
+}
+
+main {
+  width: 100%;
+  height: 100%;
 }
 
 main > div {
@@ -130,10 +155,10 @@ h2 {
 
 .hero > button:hover {
   transition: 0.1s ease;
-  background-color: #db4532;
   border: 0;
   box-shadow: 0px 3px 8px -5px black;
   transform: scale(1.03);
+  cursor: pointer;
 }
 .hero > button:active {
   transition: 0.1s ease;
@@ -155,7 +180,7 @@ h2 {
 }
 
 .about-image img {
-  width: 100%;
+  width: 95%;
   object-fit: cover;
   overflow: hidden;
   display: block;
@@ -200,4 +225,5 @@ iframe {
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
+  resize: vertical;
 }
