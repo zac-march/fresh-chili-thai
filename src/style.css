@@ -179,6 +179,12 @@ h2 {
   justify-self: center;
 }
 
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 iframe {
   position: absolute;
   width: 100%;

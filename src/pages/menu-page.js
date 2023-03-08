@@ -1,19 +1,19 @@
 function menuLoad() {
-  const menu = document.createElement("div");
+  const menuContainer = document.createElement("div");
   const title = document.createElement("h1");
-  const menuPDF = document.createElement("iframe");
+  const menuIframe = document.createElement("iframe");
   const content = document.querySelector("#content");
 
-  menuPDF.src =
+  menuIframe.src =
     "https://drive.google.com/file/d/1XhE9ujNiU_zokGgAzZh62ALhs9fot6vY/preview";
-  menuPDF.frameborder = "0";
+  menuIframe.frameborder = "0";
 
-  menu.classList.add("iframe-wrapper");
+  menuContainer.classList.add("iframe-wrapper");
   title.textContent = "Menu";
 
   content.appendChild(title);
-  menu.appendChild(menuPDF);
+  menuContainer.appendChild(menuIframe);
 
-  return menu;
+  return menuContainer;
 }
 export { menuLoad };
