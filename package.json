@@ -1,5 +1,5 @@
 {
-  "name": "fresh-chili-thai",
+  "name": "fresh-chilli-thai",
   "version": "1.0.0",
   "description": "Website",
   "main": "index.js",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zac-march/fresh-chili-thai.git"
+    "url": "git+https://github.com/zac-march/fresh-chilli-thai.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zac-march/fresh-chili-thai/issues"
+    "url": "https://github.com/zac-march/fresh-chilli-thai/issues"
   },
-  "homepage": "https://github.com/zac-march/fresh-chili-thai#readme",
+  "homepage": "https://github.com/zac-march/fresh-chilli-thai#readme",
   "devDependencies": {
     "css-loader": "^6.7.3",
     "style-loader": "^3.3.1",
-    "webpack": "^5.75.0",
+    "webpack": "^5.76.0",
     "webpack-cli": "^5.0.1"
   }
 }
